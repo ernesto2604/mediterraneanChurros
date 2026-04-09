@@ -1,110 +1,36 @@
-# Mediterranean Churros Landing Page
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-Premium multilingual landing page for **Mediterranean Churros**, a Spanish churros brand operating across Switzerland for markets, fairs, festivals, private events, and catering experiences.
+## Getting Started
 
-This project is designed to present the brand as a **premium, elegant, and scalable hospitality concept**, with a strong focus on visual identity, multilingual support, and editable content.
-
----
-
-## Overview
-
-The website is built to communicate a refined brand experience rather than a simple food stall concept.
-
-It includes:
-
-- premium editorial-inspired design
-- multilingual routing
-- responsive layout
-- reusable UI components
-- editable content through Sanity CMS
-- clean and scalable project structure
-
----
-
-## Tech Stack
-
-- **Next.js**
-- **TypeScript**
-- **Tailwind CSS**
-- **next-intl** for internationalization
-- **Sanity CMS** for editable content
-- **Framer Motion** for subtle animations
-- **shadcn/ui** for selected UI primitives
-
----
-
-## Features
-
-- Multilingual support:
-  - Spanish
-  - German
-  - French
-  - Italian
-
-- Localized routes:
-  - `/es`
-  - `/de`
-  - `/fr`
-  - `/it`
-
-- Premium landing page sections:
-  - Hero
-  - Products
-  - Brand / Story
-  - Events / Locations
-  - Testimonials
-  - Contact
-  - Footer
-
-- Editable content via Sanity:
-  - hero content
-  - products
-  - events
-  - testimonials
-  - contact information
-  - global site settings
-
-- Responsive design for:
-  - mobile
-  - tablet
-  - desktop
-
----
-
-## Project Goals
-
-This project aims to provide a strong foundation for a real brand website that can grow over time.
-
-Main goals:
-
-- create a premium first impression
-- support multilingual audiences in Switzerland
-- allow non-technical content updates
-- keep the codebase clean and maintainable
-- stay ready for future expansion
-
----
-
-## Project Structure
+First, run the development server:
 
 ```bash
-src/
-  app/
-    [locale]/
-    globals.css
-  components/
-    layout/
-    sections/
-    ui/
-  lib/
-    i18n/
-    sanity/
-    utils/
-  messages/
-    es.json
-    de.json
-    fr.json
-    it.json
-  sanity/
-    schemaTypes/
-public/
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
