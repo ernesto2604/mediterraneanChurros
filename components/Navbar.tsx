@@ -84,7 +84,7 @@ export function Navbar({locale}: Props) {
 
         <button
           type="button"
-          aria-label={isOpen ? "Close menu" : "Open menu"}
+          aria-label={isOpen ? t("closeMenu") : t("openMenu")}
           onClick={() => setIsOpen((prev) => !prev)}
           className="inline-flex size-10 items-center justify-center rounded-full border border-border/70 bg-card transition-all duration-300 hover:-translate-y-0.5 md:hidden"
         >

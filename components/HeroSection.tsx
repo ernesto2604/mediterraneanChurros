@@ -27,7 +27,7 @@ export function HeroSection() {
             >
               <span className="eyebrow">{t("tag")}</span>
 
-              <h1 className="mb-6 text-4xl leading-tight font-semibold tracking-tight md:text-6xl">
+              <h1 className="mb-6 text-4xl leading-tight font-bold tracking-tight md:text-6xl">
                 {t("title")}
               </h1>
               <p className="mb-10 max-w-2xl text-base leading-relaxed text-muted-foreground md:text-lg">
@@ -69,7 +69,7 @@ export function HeroSection() {
               <div className="relative overflow-hidden rounded-3xl border border-border/70 bg-card/90 p-2 shadow-[0_20px_60px_-35px_color-mix(in_oklab,var(--foreground)_55%,transparent)]">
                 <Image
                   src="/images/churros.jpeg"
-                  alt="Fresh premium churros"
+                  alt={t("imageAlt")}
                   width={1000}
                   height={1200}
                   className="h-[300px] w-full rounded-2xl object-cover object-center md:h-[420px]"

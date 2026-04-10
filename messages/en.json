@@ -8,14 +8,17 @@
     "story": "Story",
     "events": "Events",
     "contact": "Contact",
-    "cta": "Book catering"
+    "cta": "Book catering",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
   },
   "hero": {
     "tag": "PREMIUM ARTISAN CHURROS",
     "title": "The taste of Spain, on the move",
     "subtitle": "Freshly made products inspired by Spanish tradition, present at fairs, markets and festivals across different cities in Switzerland.",
     "primaryCta": "Book Catering",
-    "secondaryCta": "View specialties"
+    "secondaryCta": "View specialties",
+    "imageAlt": "Fresh premium churros"
   },
   "products": {
     "eyebrow": "Products",
@@ -45,15 +48,17 @@
   "story": {
     "eyebrow": "Story",
     "title": "Who are we?",
-    "paragraph": "We are a group of people united by one shared idea: bringing the traditional flavors of Spain to different corners of Switzerland.\n\nThrough a close and carefully crafted format, we bring a proposal inspired by a tradition deeply rooted in our culture.\n\nOur goal is to create authentic experiences at fairs, markets and festivals, where each stop becomes an opportunity to share something more than just a product."
+    "paragraph": "We are a group of people united by one shared idea: bringing the traditional flavors of Spain to different corners of Switzerland.\n\nThrough a close, carefully crafted approach, we offer a proposal inspired by a tradition deeply rooted in our culture.\n\nOur goal is to create authentic experiences at fairs, markets and festivals, where each stop becomes an opportunity to share something more than just a product.",
+    "imageAlt": "Mediterranean Churros team"
   },
   "events": {
     "eyebrow": "Events",
     "title": "Where to find us",
     "paragraphOne": "We move across different cities in Switzerland, taking part in fairs, markets and festivals throughout the year.",
-    "paragraphTwo": "Each stop is a new opportunity to continue sharing our proposal and bring Spanish flavor to new places.",
+    "paragraphTwo": "Each stop is a new opportunity to keep sharing our concept and bring Spanish flavor to new places.",
     "upcoming": "YOU CAN FIND US IN",
     "listAria": "Cities and event dates",
+    "defaultDate": "Coming soon",
     "zurich": "Zurich",
     "geneva": "Geneva",
     "lausanne": "Lausanne",
@@ -81,7 +86,7 @@
     "formMessage": "Message",
     "formMessagePlaceholder": "Tell us about your event",
     "formSubmit": "Send request",
-    "formSuccess": "Thanks, we have received your message."
+    "formSuccess": "Thanks, we have received your request."
   },
   "footer": {
     "brand": "Mediterranean Churros",

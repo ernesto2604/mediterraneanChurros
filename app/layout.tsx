@@ -10,6 +10,7 @@ const manrope = Manrope({
 const playfair = Playfair_Display({
   variable: "--font-playfair",
   subsets: ["latin"],
+  weight: ["600", "700", "800", "900"],
 });
 
 export const metadata: Metadata = {

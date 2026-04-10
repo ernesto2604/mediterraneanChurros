@@ -1,6 +1,6 @@
 "use client";
 
-import {AtSign, MapPin} from "lucide-react";
+import {AtSign, Mail, MapPin} from "lucide-react";
 import {motion} from "framer-motion";
 import {useTranslations} from "next-intl";
 import {FormEvent, useState} from "react";
@@ -41,17 +41,6 @@ export function ContactSection() {
               </p>
 
               <div className="space-y-3">
-                <a
-                  href="https://instagram.com/mediterraneanchurros"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="flex items-center gap-3 rounded-2xl border border-primary-foreground/25 bg-primary-foreground/10 px-4 py-3 text-sm font-medium transition hover:bg-primary-foreground/15"
-                >
-                  <span className="inline-flex size-8 items-center justify-center rounded-full bg-primary-foreground/20 text-primary-foreground">
-                    <AtSign className="size-4" />
-                  </span>
-                  <span>{t("instagramLabel")}</span>
-                </a>
                 <div className="flex items-center gap-3 rounded-2xl border border-primary-foreground/25 bg-primary-foreground/10 px-4 py-3 text-sm font-medium transition hover:bg-primary-foreground/15">
                   <span className="inline-flex size-8 items-center justify-center rounded-full bg-primary-foreground/20 text-primary-foreground">
                     <MapPin className="size-4" />
@@ -59,6 +48,30 @@ export function ContactSection() {
                   <span>
                     {t("countryLabel")}: {t("countryValue")}
                   </span>
+                </div>
+
+                <div className="grid grid-cols-2 gap-3">
+                  <a
+                    href="https://instagram.com/mediterraneanchurros"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="flex items-center gap-3 rounded-2xl border border-primary-foreground/25 bg-primary-foreground/10 px-4 py-3 text-sm font-medium transition hover:bg-primary-foreground/15"
+                  >
+                    <span className="inline-flex size-8 items-center justify-center rounded-full bg-primary-foreground/20 text-primary-foreground">
+                      <AtSign className="size-4" />
+                    </span>
+                    <span className="truncate">{t("instagramLabel")}</span>
+                  </a>
+
+                  <a
+                    href={`mailto:${t("emailValue")}`}
+                    className="flex items-center gap-3 rounded-2xl border border-primary-foreground/25 bg-primary-foreground/10 px-4 py-3 text-sm font-medium transition hover:bg-primary-foreground/15"
+                  >
+                    <span className="inline-flex size-8 items-center justify-center rounded-full bg-primary-foreground/20 text-primary-foreground">
+                      <Mail className="size-4" />
+                    </span>
+                    <span className="truncate">{t("emailLabel")}</span>
+                  </a>
                 </div>
               </div>
             </div>
@@ -108,7 +121,7 @@ export function ContactSection() {
                   type="submit"
                   className={buttonVariants({
                     size: "lg",
-                    className: "w-full justify-center rounded-full",
+                    className: "w-full justify-center rounded-full cursor-pointer",
                   })}
                 >
                   {t("formSubmit")}

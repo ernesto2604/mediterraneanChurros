@@ -1,6 +1,6 @@
 {
   "language": {
-    "label": "Sprache auswahlen"
+    "label": "Sprache auswählen"
   },
   "nav": {
     "brand": "Mediterranean Churros",
@@ -8,14 +8,17 @@
     "story": "Geschichte",
     "events": "Events",
     "contact": "Kontakt",
-    "cta": "Catering anfragen"
+    "cta": "Catering anfragen",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen"
   },
   "hero": {
     "tag": "PREMIUM HANDWERKS-CHURROS",
-    "title": "Der Geschmack Spaniens, in Bewegung",
-    "subtitle": "Frisch zubereitete Produkte, inspiriert von spanischer Tradition, auf Messen, Markten und Festivals in verschiedenen Stadten der Schweiz.",
+    "title": "Der Geschmack Spaniens in Bewegung",
+    "subtitle": "Frisch zubereitete Produkte, inspiriert von spanischer Tradition, auf Messen, Märkten und Festivals in verschiedenen Städten der Schweiz.",
     "primaryCta": "Catering buchen",
-    "secondaryCta": "Spezialitaten ansehen"
+    "secondaryCta": "Spezialitäten entdecken",
+    "imageAlt": "Frische Premium-Churros"
   },
   "products": {
     "eyebrow": "Produkte",
@@ -27,7 +30,7 @@
       "details": ""
     },
     "filled": {
-      "title": "Heisse Schokolade",
+      "title": "Heiße Schokolade",
       "desc": "Die traditionelle Begleitung, intensiv und cremig.",
       "details": ""
     },
@@ -38,48 +41,50 @@
     },
     "specials": {
       "title": "Spezielle Optionen",
-      "desc": "Zucker, Zimt und verschiedene Prasentationen je nach Event.",
+      "desc": "Zucker, Zimt und verschiedene Präsentationen je nach Event.",
       "details": ""
     }
   },
   "story": {
     "eyebrow": "Geschichte",
     "title": "Wer sind wir?",
-    "paragraph": "Wir sind eine Gruppe von Menschen, die durch dieselbe Idee verbunden sind: die traditionellen Aromen Spaniens in verschiedene Orte der Schweiz zu bringen.\n\nMit einem nahbaren und sorgfaltigen Format bringen wir ein Angebot, das von einer in unserer Kultur tief verwurzelten Tradition inspiriert ist.\n\nUnser Ziel ist es, auf Messen, Markten und Festivals authentische Erlebnisse zu schaffen, bei denen jeder Halt zu einer Gelegenheit wird, mehr als nur ein Produkt zu teilen."
+    "paragraph": "Wir sind eine Gruppe von Menschen, die eine gemeinsame Idee verbindet: die traditionellen Aromen Spaniens in verschiedene Regionen der Schweiz zu bringen.\n\nMit einem nahbaren und sorgfältigen Konzept bieten wir ein Angebot, das von einer in unserer Kultur tief verwurzelten Tradition inspiriert ist.\n\nUnser Ziel ist es, auf Messen, Märkten und Festivals authentische Erlebnisse zu schaffen, bei denen jeder Halt zur Gelegenheit wird, mehr als nur ein Produkt zu teilen.",
+    "imageAlt": "Team von Mediterranean Churros"
   },
   "events": {
     "eyebrow": "Events",
     "title": "Wo Sie uns finden",
-    "paragraphOne": "Wir sind in verschiedenen Stadten der Schweiz unterwegs und nehmen das ganze Jahr uber an Messen, Markten und Festivals teil.",
+    "paragraphOne": "Wir sind in verschiedenen Städten der Schweiz unterwegs und nehmen das ganze Jahr über an Messen, Märkten und Festivals teil.",
     "paragraphTwo": "Jeder Halt ist eine neue Gelegenheit, unser Konzept weiterzugeben und spanischen Geschmack an neue Orte zu bringen.",
     "upcoming": "HIER FINDEN SIE UNS",
-    "listAria": "Stadte und Eventdaten",
+    "listAria": "Städte und Eventdaten",
+    "defaultDate": "Demnächst",
     "zurich": "Zurich",
     "geneva": "Genf",
     "lausanne": "Lausanne",
-    "zurichDate": "Demnachst",
+    "zurichDate": "Demnächst",
     "genevaDate": "14.-16. Juni",
-    "lausanneDate": "Demnachst"
+    "lausanneDate": "Demnächst"
   },
   "contact": {
     "eyebrow": "KONTAKT",
-    "title": "Wir sind fur dich da",
-    "subtitle": "Wenn Sie eine Veranstaltung organisieren oder mit uns zusammenarbeiten mochten, freuen wir uns, von Ihnen zu horen.",
-    "subtitleTwo": "Sagen Sie uns, was Sie brauchen, und wir antworten Ihnen so schnell wie moglich.",
-    "serviceLine": "Catering fur Messen, private Veranstaltungen und Feiern.",
+    "title": "Wir sind für Sie da",
+    "subtitle": "Wenn Sie eine Veranstaltung organisieren oder mit uns zusammenarbeiten möchten, freuen wir uns, von Ihnen zu hören.",
+    "subtitleTwo": "Sagen Sie uns, was Sie brauchen, und wir antworten Ihnen so schnell wie möglich.",
+    "serviceLine": "Catering für Messen, private Veranstaltungen und Feiern.",
     "emailLabel": "Email",
     "emailValue": "hello@mediterraneanchurros.ch",
     "instagramLabel": "Instagram",
     "instagramValue": "@mediterraneanchurros",
     "countryLabel": "Schweiz",
-    "countryValue": "In verschiedenen Stadten verfugbar",
+    "countryValue": "In verschiedenen Städten verfügbar",
     "writeUs": "Schreiben Sie uns",
     "formName": "Name",
     "formNamePlaceholder": "Ihr Name",
     "formEmail": "Email",
-    "formEmailPlaceholder": "sie@email.com",
+    "formEmailPlaceholder": "ihre@email.com",
     "formMessage": "Nachricht",
-    "formMessagePlaceholder": "Erzahlen Sie uns von Ihrer Veranstaltung",
+    "formMessagePlaceholder": "Erzählen Sie uns von Ihrer Veranstaltung",
     "formSubmit": "Anfrage senden",
     "formSuccess": "Danke, wir haben Ihre Nachricht erhalten."
   },

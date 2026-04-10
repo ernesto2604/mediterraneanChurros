@@ -6,90 +6,95 @@
     "brand": "Mediterranean Churros",
     "products": "Produits",
     "story": "Histoire",
-    "events": "Evenements",
+    "events": "Événements",
     "contact": "Contact",
-    "cta": "Demander un service"
+    "cta": "Réserver un service traiteur",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu"
   },
   "hero": {
     "tag": "CHURROS PREMIUM ARTISANAUX",
     "title": "La saveur de l'Espagne, en mouvement",
-    "subtitle": "Produits prepares a la minute et inspires de la tradition espagnole, presents dans des foires, marches et festivals a travers differentes villes de Suisse.",
-    "primaryCta": "Reserver un service traiteur",
-    "secondaryCta": "Voir les specialites"
+    "subtitle": "Produits préparés à la minute et inspirés de la tradition espagnole, présents dans des foires, marchés et festivals à travers différentes villes de Suisse.",
+    "primaryCta": "Réserver un service traiteur",
+    "secondaryCta": "Voir les spécialités",
+    "imageAlt": "Churros premium fraîchement préparés"
   },
   "products": {
     "eyebrow": "Produits",
-    "title": "Notre selection",
+    "title": "Notre sélection",
     "sectionTitle": "Produits",
     "classic": {
       "title": "Churro traditionnel",
-      "desc": "Recette classique, prepare a la minute et croustillant.",
+      "desc": "Recette classique, préparée à la minute et croustillante.",
       "details": ""
     },
     "filled": {
       "title": "Chocolat chaud",
-      "desc": "L'accompagnement traditionnel, intense et cremeux.",
+      "desc": "L'accompagnement traditionnel, intense et crémeux.",
       "details": ""
     },
     "signature": {
-      "title": "Cafe",
+      "title": "Café",
       "desc": "Une option simple pour accompagner chaque moment.",
       "details": ""
     },
     "specials": {
-      "title": "Options speciales",
-      "desc": "Sucre, cannelle et differentes presentations selon l'evenement.",
+      "title": "Options spéciales",
+      "desc": "Sucre, cannelle et différentes présentations selon l'événement.",
       "details": ""
     }
   },
   "story": {
     "eyebrow": "Histoire",
     "title": "Qui sommes-nous ?",
-    "paragraph": "Nous sommes un groupe de personnes unies par une meme idee: rapprocher les saveurs traditionnelles de l'Espagne dans differents coins de la Suisse.\n\nA travers un format proche et soigne, nous proposons une offre inspiree par une tradition profondement ancree dans notre culture.\n\nNotre objectif est de creer des experiences authentiques dans les foires, les marches et les festivals, ou chaque etape devient une occasion de partager plus qu'un simple produit."
+    "paragraph": "Nous sommes un groupe de personnes unies par une même idée : faire découvrir les saveurs traditionnelles de l'Espagne dans différents coins de la Suisse.\n\nÀ travers un format proche et soigné, nous proposons une offre inspirée d'une tradition profondément ancrée dans notre culture.\n\nNotre objectif est de créer des expériences authentiques dans les foires, les marchés et les festivals, où chaque étape devient une occasion de partager plus qu'un simple produit.",
+    "imageAlt": "Équipe de Mediterranean Churros"
   },
   "events": {
-    "eyebrow": "Evenements",
-    "title": "Ou nous trouver",
-    "paragraphOne": "Nous nous deplacons dans differentes villes de Suisse en participant a des foires, des marches et des festivals tout au long de l'annee.",
-    "paragraphTwo": "Chaque etape est une nouvelle occasion de partager notre proposition et d'apporter les saveurs espagnoles dans de nouveaux lieux.",
-    "upcoming": "VOUS POUVEZ NOUS TROUVER A",
-    "listAria": "Villes et dates d'evenements",
+    "eyebrow": "Événements",
+    "title": "Où nous trouver",
+    "paragraphOne": "Nous nous déplaçons dans différentes villes de Suisse en participant à des foires, des marchés et des festivals tout au long de l'année.",
+    "paragraphTwo": "Chaque étape est une nouvelle occasion de partager notre proposition et d'apporter les saveurs espagnoles dans de nouveaux lieux.",
+    "upcoming": "VOUS POUVEZ NOUS TROUVER À",
+    "listAria": "Villes et dates d'événements",
+    "defaultDate": "Bientôt",
     "zurich": "Zurich",
-    "geneva": "Geneve",
+    "geneva": "Genève",
     "lausanne": "Lausanne",
-    "zurichDate": "Bientot",
+    "zurichDate": "Bientôt",
     "genevaDate": "14-16 juin",
-    "lausanneDate": "Bientot"
+    "lausanneDate": "Bientôt"
   },
   "contact": {
     "eyebrow": "CONTACT",
-    "title": "Nous sommes la pour vous",
-    "subtitle": "Si vous souhaitez organiser un evenement ou collaborer avec nous, nous serons ravis de vous ecouter.",
-    "subtitleTwo": "Dites-nous ce dont vous avez besoin et nous vous repondrons dans les plus brefs delais.",
-    "serviceLine": "Service traiteur pour foires, evenements prives et celebrations.",
+    "title": "Nous sommes là pour vous",
+    "subtitle": "Si vous souhaitez organiser un événement ou collaborer avec nous, nous serons ravis de vous écouter.",
+    "subtitleTwo": "Dites-nous ce dont vous avez besoin et nous vous répondrons dans les plus brefs délais.",
+    "serviceLine": "Service traiteur pour foires, événements privés et célébrations.",
     "emailLabel": "Email",
     "emailValue": "hello@mediterraneanchurros.ch",
     "instagramLabel": "Instagram",
     "instagramValue": "@mediterraneanchurros",
     "countryLabel": "Suisse",
-    "countryValue": "Disponible dans differentes villes",
-    "writeUs": "Ecrivez-nous",
+    "countryValue": "Disponible dans différentes villes",
+    "writeUs": "Écrivez-nous",
     "formName": "Nom",
     "formNamePlaceholder": "Votre nom",
     "formEmail": "Email",
     "formEmailPlaceholder": "vous@email.com",
     "formMessage": "Message",
-    "formMessagePlaceholder": "Parlez-nous de votre evenement",
+    "formMessagePlaceholder": "Parlez-nous de votre événement",
     "formSubmit": "Envoyer la demande",
-    "formSuccess": "Merci, nous avons bien recu votre message."
+    "formSuccess": "Merci, nous avons bien reçu votre demande."
   },
   "footer": {
     "brand": "Mediterranean Churros",
     "tagline": "Saveurs traditionnelles d'Espagne en Suisse.",
-    "rights": "Tous droits reserves.",
+    "rights": "Tous droits réservés.",
     "legalTitle": "Mentions",
-    "legal": "Mentions legales",
-    "privacy": "Confidentialite",
+    "legal": "Mentions légales",
+    "privacy": "Confidentialité",
     "cookies": "Cookies",
     "contactTitle": "Contact rapide",
     "email": "hello@mediterraneanchurros.ch",

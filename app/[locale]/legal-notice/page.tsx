@@ -10,10 +10,10 @@ type Content = {
 const contentByLocale: Record<AppLocale, Content> = {
   es: {
     title: "Aviso legal",
-    intro: "Informacion legal del sitio web Mediterranean Churros.",
+    intro: "Información legal del sitio web Mediterranean Churros.",
     owner: "Titular del sitio: Mediterranean Churros (marca comercial).",
     responsibility:
-      "Este sitio tiene caracter informativo. Para datos legales definitivos, incorpora aqui los datos fiscales y de contacto oficiales.",
+      "Este sitio tiene carácter informativo. Para datos legales definitivos, incorpora aquí los datos fiscales y de contacto oficiales.",
   },
   en: {
     title: "Legal notice",
@@ -27,21 +27,21 @@ const contentByLocale: Record<AppLocale, Content> = {
     intro: "Rechtliche Informationen zur Website von Mediterranean Churros.",
     owner: "Inhaber der Website: Mediterranean Churros (Marke).",
     responsibility:
-      "Diese Website dient Informationszwecken. Fur die endgultige Rechtskonformitat bitte offizielle Steuer- und Kontaktdaten erganzen.",
+      "Diese Website dient Informationszwecken. Für die endgültige Rechtskonformität bitte offizielle Steuer- und Kontaktdaten ergänzen.",
   },
   fr: {
-    title: "Mentions legales",
-    intro: "Informations legales du site Mediterranean Churros.",
-    owner: "Proprietaire du site: Mediterranean Churros (marque commerciale).",
+    title: "Mentions légales",
+    intro: "Informations légales du site Mediterranean Churros.",
+    owner: "Propriétaire du site: Mediterranean Churros (marque commerciale).",
     responsibility:
-      "Ce site est informatif. Pour une conformite juridique complete, ajoutez ici les donnees fiscales et de contact officielles.",
+      "Ce site est informatif. Pour une conformité juridique complète, ajoutez ici les données fiscales et de contact officielles.",
   },
   it: {
     title: "Note legali",
     intro: "Informazioni legali del sito Mediterranean Churros.",
     owner: "Titolare del sito: Mediterranean Churros (marchio commerciale).",
     responsibility:
-      "Questo sito ha finalita informative. Per la conformita legale completa, inserisci qui i dati fiscali e di contatto ufficiali.",
+      "Questo sito ha finalità informative. Per la conformità legale completa, inserisci qui i dati fiscali e di contatto ufficiali.",
   },
 };
 
@@ -51,7 +51,7 @@ type Props = {
 
 export default async function LegalNoticePage({params}: Props) {
   const {locale} = await params;
-  const content = contentByLocale[(locale as AppLocale) ?? "es"] ?? contentByLocale.es;
+  const content = contentByLocale[(locale as AppLocale) ?? "de"] ?? contentByLocale.de;
 
   return (
     <main className="section-spacing">
