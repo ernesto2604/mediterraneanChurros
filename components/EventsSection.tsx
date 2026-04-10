@@ -2,21 +2,78 @@
 
 import {MapPin} from "lucide-react";
 import {motion} from "framer-motion";
-import {useTranslations} from "next-intl";
+import {useLocale, useTranslations} from "next-intl";
 
-type EventCity = {
-  cityKey: "zurich" | "geneva" | "lausanne";
-  dateKey: "zurichDate" | "genevaDate" | "lausanneDate";
+type EventCityItem = {
+  city: string;
+  dateStart?: string;
+  dateEnd?: string;
 };
 
-const eventCities: EventCity[] = [
-  {cityKey: "zurich", dateKey: "zurichDate"},
-  {cityKey: "geneva", dateKey: "genevaDate"},
-  {cityKey: "lausanne", dateKey: "lausanneDate"},
-];
+type Props = {
+  cities?: EventCityItem[];
+};
 
-export function EventsSection() {
+export function EventsSection({cities}: Props) {
+  const locale = useLocale();
   const t = useTranslations("events");
+  const fallbackCities: EventCityItem[] = [
+    {city: t("zurich")},
+    {city: t("geneva")},
+    {city: t("lausanne")},
+  ];
+  const eventCities = cities && cities.length > 0 ? cities : fallbackCities;
+
+  const parseDate = (value?: string): Date | null => {
+    if (!value) {
+      return null;
+    }
+
+    const [year, month, day] = value.split("-").map(Number);
+    if (!year || !month || !day) {
+      return null;
+    }
+
+    return new Date(year, month - 1, day);
+  };
+
+  const getLocaleTag = (appLocale: string) => {
+    const map: Record<string, string> = {
+      es: "es-ES",
+      en: "en-GB",
+      de: "de-DE",
+      fr: "fr-FR",
+      it: "it-IT",
+    };
+
+    return map[appLocale] ?? appLocale;
+  };
+
+  const formatEventDate = (item: EventCityItem) => {
+    const start = parseDate(item.dateStart);
+    if (start) {
+      const localeTag = getLocaleTag(locale);
+      const fullFormatter = new Intl.DateTimeFormat(localeTag, {
+        day: "numeric",
+        month: "long",
+      });
+
+      const end = parseDate(item.dateEnd);
+      if (!end) {
+        return fullFormatter.format(start);
+      }
+
+      const sameMonth = start.getMonth() === end.getMonth() && start.getFullYear() === end.getFullYear();
+      if (sameMonth) {
+        const monthLabel = new Intl.DateTimeFormat(localeTag, {month: "long"}).format(start);
+        return `${start.getDate()}-${end.getDate()} ${monthLabel}`;
+      }
+
+      return `${fullFormatter.format(start)} - ${fullFormatter.format(end)}`;
+    }
+
+    return t("defaultDate");
+  };
 
   return (
     <section id="events" className="section-spacing">
@@ -56,7 +113,7 @@ export function EventsSection() {
             <ul className="space-y-3" aria-label={t("listAria")}>
               {eventCities.map((item) => (
                 <li
-                  key={item.cityKey}
+                  key={`${item.city}-${item.dateStart ?? "no-date"}`}
                   className="group flex items-center justify-between gap-4 rounded-2xl border border-border/55 bg-background/80 px-4 py-3.5 transition-all duration-300 hover:border-border/80 hover:bg-background hover:shadow-[0_12px_30px_-24px_color-mix(in_oklab,var(--foreground)_40%,transparent)]"
                 >
                   <div className="flex min-w-0 items-center gap-3">
@@ -64,10 +121,12 @@ export function EventsSection() {
                       <MapPin className="size-4" />
                     </span>
                     <span className="truncate text-sm font-medium tracking-tight md:text-base">
-                      {t(item.cityKey)}
+                      {item.city}
                     </span>
                   </div>
-                  <span className="shrink-0 text-sm text-muted-foreground">{t(item.dateKey)}</span>
+                  <span className="shrink-0 text-sm text-muted-foreground">
+                    {formatEventDate(item)}
+                  </span>
                 </li>
               ))}
             </ul>

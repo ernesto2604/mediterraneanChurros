@@ -10,7 +10,7 @@ export function Footer() {
 
   return (
     <footer className="border-t border-border/60 bg-card/35 py-6">
-      <div className="page-shell flex flex-col gap-4 text-sm text-muted-foreground md:flex-row md:items-center md:justify-between">
+      <div className="page-shell flex flex-col gap-5 text-sm text-muted-foreground md:flex-row md:items-center md:justify-between">
         <div className="min-w-0">
           <p className="text-sm font-semibold tracking-[0.1em] text-foreground uppercase">{t("brand")}</p>
           <p className="mt-1 text-xs sm:text-sm">

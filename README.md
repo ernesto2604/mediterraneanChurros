@@ -111,3 +111,43 @@ npm run start
 
 - No requiere instalaciones globales.
 - El proyecto esta listo para abrirse y ejecutarse en cualquier equipo con Node.js LTS + npm.
+
+## Eventos dinamicos con Sanity
+
+La seccion de eventos puede leerse desde Sanity para que el cliente actualice ciudades y fechas sin tocar codigo.
+
+### Variables de entorno
+
+Copia `.env.example` a `.env.local` y completa:
+
+```bash
+NEXT_PUBLIC_SANITY_PROJECT_ID=
+NEXT_PUBLIC_SANITY_DATASET=production
+NEXT_PUBLIC_SANITY_API_VERSION=2026-01-01
+```
+
+### Esquema usado
+
+- Tipo de documento: `eventLocation`
+- Archivo: `sanity/schemaTypes/eventLocationType.ts`
+- Configuracion Studio: `sanity.config.ts`
+- Ruta Studio: `/studio`
+
+Campos principales:
+
+- `orderRank` (orden en lista)
+- `isActive` (activar/desactivar ubicacion)
+- `city*` por idioma (`Es`, `En`, `De`, `Fr`, `It`)
+- `dateStart` y `dateEnd` (opcional) para formateo automatico segun idioma
+
+### Fallback
+
+Si Sanity no esta configurado o no hay datos, la web usa automaticamente los textos de `messages/*.json`.
+
+### Uso del cliente
+
+1. Arranca el proyecto con `npm run dev`.
+2. Abre `http://localhost:3000/studio`.
+3. Entra en `Event Location`.
+4. Crea/edita ciudades y fechas por idioma.
+5. Ajusta `orderRank` para el orden de aparicion y `isActive` para mostrar/ocultar.

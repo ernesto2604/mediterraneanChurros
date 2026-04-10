@@ -10,11 +10,11 @@ type Content = {
 const contentByLocale: Record<AppLocale, Content> = {
   es: {
     title: "Privacidad",
-    intro: "Tratamos los datos enviados en el formulario de contacto con la unica finalidad de responder tu consulta.",
+    intro: "Tratamos los datos enviados en el formulario de contacto con la única finalidad de responder tu consulta.",
     dataUse:
-      "Los datos no se ceden a terceros, salvo obligacion legal. Conservacion: el tiempo necesario para gestionar la comunicacion.",
+      "Los datos no se ceden a terceros, salvo obligación legal. Conservación: el tiempo necesario para gestionar la comunicación.",
     rights:
-      "Puedes solicitar acceso, rectificacion o eliminacion escribiendo a hello@mediterraneanchurros.ch.",
+      "Puedes solicitar acceso, rectificación o eliminación escribiendo a hello@mediterraneanchurros.ch.",
   },
   en: {
     title: "Privacy",
@@ -26,19 +26,19 @@ const contentByLocale: Record<AppLocale, Content> = {
   },
   de: {
     title: "Datenschutz",
-    intro: "Wir verarbeiten Daten aus dem Kontaktformular ausschliesslich zur Beantwortung Ihrer Anfrage.",
+    intro: "Wir verarbeiten Daten aus dem Kontaktformular ausschließlich zur Beantwortung Ihrer Anfrage.",
     dataUse:
-      "Daten werden nicht an Dritte weitergegeben, ausser bei gesetzlicher Pflicht. Speicherung: nur solange fur die Kommunikation erforderlich.",
+      "Daten werden nicht an Dritte weitergegeben, außer bei gesetzlicher Pflicht. Speicherung: nur solange für die Kommunikation erforderlich.",
     rights:
-      "Sie konnen Auskunft, Berichtigung oder Loschung per E-Mail an hello@mediterraneanchurros.ch anfragen.",
+      "Sie können Auskunft, Berichtigung oder Löschung per E-Mail an hello@mediterraneanchurros.ch anfragen.",
   },
   fr: {
-    title: "Confidentialite",
-    intro: "Nous traitons les donnees envoyees via le formulaire de contact uniquement pour repondre a votre demande.",
+    title: "Confidentialité",
+    intro: "Nous traitons les données envoyées via le formulaire de contact uniquement pour répondre à votre demande.",
     dataUse:
-      "Les donnees ne sont pas transmises a des tiers, sauf obligation legale. Conservation: uniquement le temps necessaire a la communication.",
+      "Les données ne sont pas transmises à des tiers, sauf obligation légale. Conservation: uniquement le temps nécessaire à la communication.",
     rights:
-      "Vous pouvez demander l'acces, la rectification ou la suppression via hello@mediterraneanchurros.ch.",
+      "Vous pouvez demander l'accès, la rectification ou la suppression via hello@mediterraneanchurros.ch.",
   },
   it: {
     title: "Privacy",
@@ -56,7 +56,7 @@ type Props = {
 
 export default async function PrivacyPage({params}: Props) {
   const {locale} = await params;
-  const content = contentByLocale[(locale as AppLocale) ?? "es"] ?? contentByLocale.es;
+  const content = contentByLocale[(locale as AppLocale) ?? "de"] ?? contentByLocale.de;
 
   return (
     <main className="section-spacing">

@@ -8,14 +8,17 @@
     "story": "Historia",
     "events": "Eventos",
     "contact": "Contacto",
-    "cta": "Reservar catering"
+    "cta": "Reservar catering",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú"
   },
   "hero": {
     "tag": "CHURROS ARTESANOS PREMIUM",
     "title": "El sabor de España, en movimiento",
-    "subtitle": "Productos recien hechos inspirados en la tradicion española, presentes en ferias, mercados y festivales por diferentes ciudades de Suiza.",
+    "subtitle": "Productos recién hechos inspirados en la tradición española, presentes en ferias, mercados y festivales por diferentes ciudades de Suiza.",
     "primaryCta": "Reservar Catering",
-    "secondaryCta": "Ver especialidades"
+    "secondaryCta": "Ver especialidades",
+    "imageAlt": "Churros premium recién hechos"
   },
   "products": {
     "eyebrow": "Productos",
@@ -28,24 +31,25 @@
     },
     "filled": {
       "title": "Chocolate caliente",
-      "desc": "El acompanamiento tradicional, intenso y cremoso.",
+      "desc": "El acompañamiento tradicional, intenso y cremoso.",
       "details": ""
     },
     "signature": {
-      "title": "Cafe",
-      "desc": "Una opcion sencilla para acompanar cada momento.",
+      "title": "Café",
+      "desc": "Una opción sencilla para acompañar cada momento.",
       "details": ""
     },
     "specials": {
       "title": "Opciones especiales",
-      "desc": "Azucar, canela y distintas presentaciones segun el evento.",
+      "desc": "Azúcar, canela y distintas presentaciones según el evento.",
       "details": ""
     }
   },
   "story": {
     "eyebrow": "Historia",
     "title": "¿Quiénes somos?",
-    "paragraph": "Somos un grupo de personas unidas por una misma idea: acercar los sabores tradicionales de Espana a distintos rincones de Suiza.\n\nA traves de un formato cercano y cuidado, llevamos una propuesta inspirada en una tradicion profundamente arraigada en nuestra cultura.\n\nNuestro objetivo es crear experiencias autenticas en ferias, mercados y festivales, donde cada parada se convierte en una oportunidad para compartir algo mas que un producto."
+    "paragraph": "Somos un grupo de personas unidas por una misma idea: acercar los sabores tradicionales de España a distintos rincones de Suiza.\n\nA través de un formato cercano y cuidado, llevamos una propuesta inspirada en una tradición profundamente arraigada en nuestra cultura.\n\nNuestro objetivo es crear experiencias auténticas en ferias, mercados y festivales, donde cada parada se convierte en una oportunidad para compartir algo más que un producto.",
+    "imageAlt": "Equipo de Mediterranean Churros"
   },
   "events": {
     "eyebrow": "Eventos",
@@ -54,8 +58,9 @@
     "paragraphTwo": "Cada parada es una nueva oportunidad para seguir compartiendo nuestra propuesta y acercar el sabor español a nuevos lugares.",
     "upcoming": "PODÉIS ENCONTRARNOS EN",
     "listAria": "Ciudades y fechas de eventos",
+    "defaultDate": "Próximamente",
     "zurich": "Zurich",
-    "geneva": "Geneva",
+    "geneva": "Ginebra",
     "lausanne": "Lausanne",
     "zurichDate": "Próximamente",
     "genevaDate": "14-16 junio",
@@ -65,7 +70,7 @@
     "eyebrow": "CONTACTO",
     "title": "Estamos aquí para ti",
     "subtitle": "Si quieres organizar un evento o colaborar con nosotros, estaremos encantados de escucharte.",
-    "subtitleTwo": "Cuentanos que necesitas y te responderemos lo antes posible.",
+    "subtitleTwo": "Cuéntanos qué necesitas y te responderemos lo antes posible.",
     "serviceLine": "Catering para ferias, eventos privados y celebraciones.",
     "emailLabel": "Email",
     "emailValue": "hello@mediterraneanchurros.ch",
@@ -73,25 +78,25 @@
     "instagramValue": "@mediterraneanchurros",
     "countryLabel": "Suiza",
     "countryValue": "Disponible en diferentes ciudades",
-    "writeUs": "Escribenos",
+    "writeUs": "Escríbenos",
     "formName": "Nombre",
     "formNamePlaceholder": "Tu nombre",
     "formEmail": "Email",
     "formEmailPlaceholder": "tu@email.com",
     "formMessage": "Mensaje",
-    "formMessagePlaceholder": "Cuentanos sobre tu evento",
+    "formMessagePlaceholder": "Cuéntanos sobre tu evento",
     "formSubmit": "Enviar solicitud",
     "formSuccess": "Gracias, hemos recibido tu mensaje."
   },
   "footer": {
     "brand": "Mediterranean Churros",
-    "tagline": "Sabores tradicionales de Espana en Suiza.",
+    "tagline": "Sabores tradicionales de España en Suiza.",
     "rights": "Todos los derechos reservados.",
     "legalTitle": "Legal",
     "legal": "Aviso legal",
     "privacy": "Privacidad",
     "cookies": "Cookies",
-    "contactTitle": "Contacto rapido",
+    "contactTitle": "Contacto rápido",
     "email": "hello@mediterraneanchurros.ch",
     "instagram": "@mediterraneanchurros"
   }

@@ -34,7 +34,7 @@ export function StorySection() {
             <div className="overflow-hidden rounded-3xl border border-border/70 bg-card/90 p-2 shadow-[0_20px_60px_-35px_color-mix(in_oklab,var(--foreground)_55%,transparent)]">
               <Image
                 src="/images/amigos.jpg"
-                alt="Equipo de Mediterranean Churros"
+                alt={t("imageAlt")}
                 width={1100}
                 height={1200}
                 className="h-[340px] w-full rounded-2xl object-cover object-center md:h-[420px]"

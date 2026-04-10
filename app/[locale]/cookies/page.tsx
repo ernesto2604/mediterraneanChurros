@@ -9,9 +9,9 @@ type Content = {
 const contentByLocale: Record<AppLocale, Content> = {
   es: {
     title: "Cookies",
-    intro: "Este sitio utiliza solo cookies tecnicas necesarias para su funcionamiento basico.",
+    intro: "Este sitio utiliza solo cookies técnicas necesarias para su funcionamiento básico.",
     note:
-      "Si en el futuro se incorporan cookies de analitica o marketing, se actualizara esta politica y el sistema de consentimiento.",
+      "Si en el futuro se incorporan cookies de analítica o marketing, se actualizará esta política y el sistema de consentimiento.",
   },
   en: {
     title: "Cookies",
@@ -21,15 +21,15 @@ const contentByLocale: Record<AppLocale, Content> = {
   },
   de: {
     title: "Cookies",
-    intro: "Diese Website verwendet derzeit nur technisch notwendige Cookies fur die Grundfunktion.",
+    intro: "Diese Website verwendet derzeit nur technisch notwendige Cookies für die Grundfunktion.",
     note:
       "Falls in Zukunft Analyse- oder Marketing-Cookies eingesetzt werden, werden diese Richtlinie und das Einwilligungssystem aktualisiert.",
   },
   fr: {
     title: "Cookies",
-    intro: "Ce site utilise actuellement uniquement des cookies techniques necessaires a son fonctionnement de base.",
+    intro: "Ce site utilise actuellement uniquement des cookies techniques nécessaires à son fonctionnement de base.",
     note:
-      "Si des cookies d'analyse ou de marketing sont ajoutes plus tard, cette politique et le systeme de consentement seront mis a jour.",
+      "Si des cookies d'analyse ou de marketing sont ajoutés plus tard, cette politique et le système de consentement seront mis à jour.",
   },
   it: {
     title: "Cookies",
@@ -45,7 +45,7 @@ type Props = {
 
 export default async function CookiesPage({params}: Props) {
   const {locale} = await params;
-  const content = contentByLocale[(locale as AppLocale) ?? "es"] ?? contentByLocale.es;
+  const content = contentByLocale[(locale as AppLocale) ?? "de"] ?? contentByLocale.de;
 
   return (
     <main className="section-spacing">

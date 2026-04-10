@@ -8,14 +8,17 @@
     "story": "Storia",
     "events": "Eventi",
     "contact": "Contatto",
-    "cta": "Richiedi catering"
+    "cta": "Richiedi catering",
+    "openMenu": "Apri menu",
+    "closeMenu": "Chiudi menu"
   },
   "hero": {
     "tag": "CHURROS ARTIGIANALI PREMIUM",
     "title": "Il sapore della Spagna, in movimento",
-    "subtitle": "Prodotti appena fatti ispirati alla tradizione spagnola, presenti in fiere, mercati e festival in diverse citta della Svizzera.",
+    "subtitle": "Prodotti appena fatti ispirati alla tradizione spagnola, presenti in fiere, mercati e festival in diverse città della Svizzera.",
     "primaryCta": "Prenota catering",
-    "secondaryCta": "Scopri le specialita"
+    "secondaryCta": "Scopri le specialità",
+    "imageAlt": "Churros premium appena fatti"
   },
   "products": {
     "eyebrow": "Prodotti",
@@ -32,7 +35,7 @@
       "details": ""
     },
     "signature": {
-      "title": "Cafe",
+      "title": "Caffè",
       "desc": "Un'opzione semplice per accompagnare ogni momento.",
       "details": ""
     },
@@ -45,15 +48,17 @@
   "story": {
     "eyebrow": "Storia",
     "title": "Chi siamo?",
-    "paragraph": "Siamo un gruppo di persone unite dalla stessa idea: portare i sapori tradizionali della Spagna in diversi angoli della Svizzera.\n\nAttraverso un formato vicino e curato, portiamo una proposta ispirata a una tradizione profondamente radicata nella nostra cultura.\n\nIl nostro obiettivo e creare esperienze autentiche in fiere, mercati e festival, dove ogni tappa diventa un'opportunita per condividere qualcosa di piu di un semplice prodotto."
+    "paragraph": "Siamo un gruppo di persone unite dalla stessa idea: portare i sapori tradizionali della Spagna in diversi angoli della Svizzera.\n\nAttraverso un formato vicino e curato, portiamo una proposta ispirata a una tradizione profondamente radicata nella nostra cultura.\n\nIl nostro obiettivo è creare esperienze autentiche in fiere, mercati e festival, dove ogni tappa diventa un'opportunità per condividere qualcosa di più di un semplice prodotto.",
+    "imageAlt": "Team di Mediterranean Churros"
   },
   "events": {
     "eyebrow": "Eventi",
     "title": "Dove trovarci",
-    "paragraphOne": "Ci muoviamo tra diverse citta della Svizzera partecipando a fiere, mercati e festival durante tutto l'anno.",
-    "paragraphTwo": "Ogni tappa e una nuova opportunita per continuare a condividere la nostra proposta e portare il sapore spagnolo in nuovi luoghi.",
+    "paragraphOne": "Ci muoviamo tra diverse città della Svizzera partecipando a fiere, mercati e festival durante tutto l'anno.",
+    "paragraphTwo": "Ogni tappa è una nuova opportunità per continuare a condividere la nostra proposta e portare il sapore spagnolo in nuovi luoghi.",
     "upcoming": "POTETE TROVARCI A",
-    "listAria": "Citta e date degli eventi",
+    "listAria": "Città e date degli eventi",
+    "defaultDate": "Prossimamente",
     "zurich": "Zurich",
     "geneva": "Ginevra",
     "lausanne": "Losanna",
@@ -72,7 +77,7 @@
     "instagramLabel": "Instagram",
     "instagramValue": "@mediterraneanchurros",
     "countryLabel": "Svizzera",
-    "countryValue": "Disponibile in diverse citta",
+    "countryValue": "Disponibile in diverse città",
     "writeUs": "Scrivici",
     "formName": "Nome",
     "formNamePlaceholder": "Il tuo nome",
@@ -81,7 +86,7 @@
     "formMessage": "Messaggio",
     "formMessagePlaceholder": "Parlaci del tuo evento",
     "formSubmit": "Invia richiesta",
-    "formSuccess": "Grazie, abbiamo ricevuto il tuo messaggio."
+    "formSuccess": "Grazie, abbiamo ricevuto la tua richiesta."
   },
   "footer": {
     "brand": "Mediterranean Churros",
