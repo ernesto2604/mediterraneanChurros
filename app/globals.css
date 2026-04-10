@@ -125,6 +125,10 @@
   }
   body {
     @apply font-sans bg-background text-foreground;
+    letter-spacing: 0.01em;
+    font-kerning: normal;
+    font-variant-ligatures: none;
+    font-feature-settings: "liga" 0, "clig" 0, "calt" 0;
     background-image:
       radial-gradient(circle at 10% -5%, color-mix(in oklab, var(--accent) 22%, transparent), transparent 32%),
       radial-gradient(circle at 90% 0%, color-mix(in oklab, var(--secondary) 35%, transparent), transparent 40%),
@@ -138,6 +142,16 @@
   h5,
   h6 {
     @apply font-heading;
+    letter-spacing: 0.018em;
+    font-kerning: normal;
+    font-variant-ligatures: none;
+    font-feature-settings: "liga" 0, "clig" 0;
+  }
+}
+
+@layer utilities {
+  .tracking-tight {
+    letter-spacing: 0.012em !important;
   }
 }
 
@@ -152,5 +166,13 @@
 
   .eyebrow {
     @apply mb-4 inline-flex items-center rounded-full border border-border/80 bg-card px-3 py-1 text-xs font-semibold tracking-[0.2em] uppercase text-muted-foreground;
+  }
+
+  .section-heading {
+    @apply text-3xl leading-tight font-semibold tracking-tight md:text-5xl;
+  }
+
+  .section-body {
+    @apply text-base leading-relaxed md:text-lg;
   }
 }

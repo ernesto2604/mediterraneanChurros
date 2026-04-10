@@ -18,12 +18,15 @@ export function StorySection() {
           className="relative overflow-hidden rounded-4xl border border-border/70 bg-[linear-gradient(110deg,color-mix(in_oklab,var(--card)_88%,white),color-mix(in_oklab,var(--secondary)_50%,white))] p-8 md:p-14"
         >
           <div className="pointer-events-none absolute top-1/2 right-0 size-56 -translate-y-1/2 rounded-full bg-accent/35 blur-3xl" />
-          <div className="relative z-10 grid gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
+          <div className="relative z-10 grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-center lg:gap-12">
             <div>
-              <h2 className="mb-6 max-w-3xl text-3xl leading-tight font-semibold tracking-tight md:text-5xl">
+              <span className="mb-5 inline-block rounded-full border border-border/70 px-3 py-1 text-xs font-semibold tracking-[0.2em] uppercase">
+                {t("eyebrow")}
+              </span>
+              <h2 className="section-heading mb-4 max-w-3xl">
                 {t("title")}
               </h2>
-              <p className="max-w-3xl text-base leading-relaxed text-muted-foreground whitespace-pre-line md:text-lg">
+              <p className="section-body max-w-3xl text-muted-foreground whitespace-pre-line">
                 {t("paragraph")}
               </p>
             </div>
