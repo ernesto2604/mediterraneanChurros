@@ -1,0 +1,86 @@
+{
+  "language": {
+    "label": "Choisir la langue"
+  },
+  "nav": {
+    "brand": "Mediterranean Churros",
+    "products": "Produits",
+    "story": "Histoire",
+    "events": "Evenements",
+    "contact": "Contact",
+    "cta": "Demander un service"
+  },
+  "hero": {
+    "tag": "CHURROS PREMIUM ARTISANAUX",
+    "title": "Authentiques saveurs espagnoles en mouvement",
+    "subtitle": "Produits prepares a la minute et inspires de la tradition espagnole, presents dans des foires, marches et festivals a travers differentes villes de Suisse.",
+    "primaryCta": "Demander une offre",
+    "secondaryCta": "Voir les specialites"
+  },
+  "products": {
+    "sectionTitle": "Produits",
+    "classic": {
+      "title": "Churro traditionnel",
+      "desc": "Recette classique, prepare a la minute et croustillant.",
+      "details": ""
+    },
+    "filled": {
+      "title": "Chocolat chaud",
+      "desc": "L'accompagnement traditionnel, intense et cremeux.",
+      "details": ""
+    },
+    "signature": {
+      "title": "Cafe",
+      "desc": "Une option simple pour accompagner chaque moment.",
+      "details": ""
+    },
+    "specials": {
+      "title": "Options speciales",
+      "desc": "Sucre, cannelle et differentes presentations selon l'evenement.",
+      "details": ""
+    }
+  },
+  "story": {
+    "title": "Notre histoire",
+    "paragraph": "Nous sommes un groupe d'amis qui partage la meme idee: faire decouvrir des saveurs traditionnelles d'Espagne dans differents coins de la Suisse.\n\nA travers un format simple et proche des gens, nous proposons des produits inspires d'une tradition tres ancree dans notre culture.\n\nNotre objectif est de partager une experience authentique dans les foires, les marches et les festivals."
+  },
+  "events": {
+    "eyebrow": "EVENEMENTS",
+    "title": "Evenements",
+    "paragraphOne": "Nous nous deplacons dans differentes villes de Suisse en participant a des foires, des marches et des festivals tout au long de l'annee.",
+    "paragraphTwo": "Chaque etape est une nouvelle occasion de partager notre proposition et d'apporter les saveurs espagnoles dans de nouveaux lieux.",
+    "upcoming": "Vous pourrez bientot nous trouver a",
+    "zurich": "Zurich",
+    "geneva": "Geneva",
+    "lausanne": "Lausanne"
+  },
+  "contact": {
+    "eyebrow": "CONTACT",
+    "title": "Contact",
+    "subtitle": "Si vous voulez savoir ou nous serons prochainement ou nous contacter:",
+    "emailLabel": "Email",
+    "emailValue": "hello@mediterraneanchurros.ch",
+    "instagramLabel": "Instagram",
+    "instagramValue": "@mediterraneanchurros",
+    "countryLabel": "Suisse",
+    "countryValue": "Disponible dans differentes villes",
+    "writeUs": "Ecrivez-nous",
+    "formName": "Nom",
+    "formEmail": "Email",
+    "formMessage": "Message",
+    "formSubmit": "Envoyer le message",
+    "formSuccess": "Merci, nous avons bien recu votre message."
+  },
+  "footer": {
+    "brand": "Mediterranean Churros",
+    "tagline": "Saveurs traditionnelles d'Espagne en Suisse.",
+    "rights": "Tous droits reserves.",
+    "legalTitle": "Mentions",
+    "legal": "Mentions legales",
+    "privacy": "Confidentialite",
+    "cookies": "Cookies",
+    "contactTitle": "Contact rapide",
+    "email": "hello@mediterraneanchurros.ch",
+    "instagram": "@mediterraneanchurros"
+  }
+}

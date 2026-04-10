@@ -1,0 +1,86 @@
+{
+  "language": {
+    "label": "Sprache auswahlen"
+  },
+  "nav": {
+    "brand": "Mediterranean Churros",
+    "products": "Produkte",
+    "story": "Marke",
+    "events": "Events",
+    "contact": "Kontakt",
+    "cta": "Catering anfragen"
+  },
+  "hero": {
+    "tag": "PREMIUM HANDWERKS-CHURROS",
+    "title": "Authentische spanische Aromen in Bewegung",
+    "subtitle": "Frisch zubereitete Produkte, inspiriert von spanischer Tradition, auf Messen, Markten und Festivals in verschiedenen Stadten der Schweiz.",
+    "primaryCta": "Angebot anfragen",
+    "secondaryCta": "Spezialitaten ansehen"
+  },
+  "products": {
+    "sectionTitle": "Produkte",
+    "classic": {
+      "title": "Traditioneller Churro",
+      "desc": "Klassisches Rezept, frisch zubereitet und knusprig.",
+      "details": ""
+    },
+    "filled": {
+      "title": "Heisse Schokolade",
+      "desc": "Die traditionelle Begleitung, intensiv und cremig.",
+      "details": ""
+    },
+    "signature": {
+      "title": "Kaffee",
+      "desc": "Eine einfache Option, die zu jedem Moment passt.",
+      "details": ""
+    },
+    "specials": {
+      "title": "Spezielle Optionen",
+      "desc": "Zucker, Zimt und verschiedene Prasentationen je nach Event.",
+      "details": ""
+    }
+  },
+  "story": {
+    "title": "Unsere Geschichte",
+    "paragraph": "Wir sind eine Gruppe von Freunden mit derselben Idee: traditionelle Aromen aus Spanien in verschiedene Orte der Schweiz zu bringen.\n\nMit einem einfachen und nahbaren Format bieten wir Produkte an, die von einer in unserer Kultur tief verwurzelten Tradition inspiriert sind.\n\nUnser Ziel ist es, auf Messen, Markten und Festivals ein authentisches Erlebnis zu teilen."
+  },
+  "events": {
+    "eyebrow": "EVENTS",
+    "title": "Events",
+    "paragraphOne": "Wir sind in verschiedenen Stadten der Schweiz unterwegs und nehmen das ganze Jahr uber an Messen, Markten und Festivals teil.",
+    "paragraphTwo": "Jeder Halt ist eine neue Gelegenheit, unser Konzept weiterzugeben und spanischen Geschmack an neue Orte zu bringen.",
+    "upcoming": "Demnachst finden Sie uns in",
+    "zurich": "Zurich",
+    "geneva": "Geneva",
+    "lausanne": "Lausanne"
+  },
+  "contact": {
+    "eyebrow": "KONTAKT",
+    "title": "Kontakt",
+    "subtitle": "Wenn Sie wissen mochten, wo wir als Nachstes sind, oder mit uns Kontakt aufnehmen wollen:",
+    "emailLabel": "Email",
+    "emailValue": "hello@mediterraneanchurros.ch",
+    "instagramLabel": "Instagram",
+    "instagramValue": "@mediterraneanchurros",
+    "countryLabel": "Schweiz",
+    "countryValue": "In verschiedenen Stadten verfugbar",
+    "writeUs": "Schreiben Sie uns",
+    "formName": "Name",
+    "formEmail": "Email",
+    "formMessage": "Nachricht",
+    "formSubmit": "Nachricht senden",
+    "formSuccess": "Danke, wir haben Ihre Nachricht erhalten."
+  },
+  "footer": {
+    "brand": "Mediterranean Churros",
+    "tagline": "Traditionelle spanische Aromen in der Schweiz.",
+    "rights": "Alle Rechte vorbehalten.",
+    "legalTitle": "Rechtliches",
+    "legal": "Impressum",
+    "privacy": "Datenschutz",
+    "cookies": "Cookies",
+    "contactTitle": "Schnellkontakt",
+    "email": "hello@mediterraneanchurros.ch",
+    "instagram": "@mediterraneanchurros"
+  }
+}

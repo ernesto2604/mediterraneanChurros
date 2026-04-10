@@ -1,36 +1,113 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mediterranean Churros - Landing Base Profesional
 
-## Getting Started
+Base profesional de landing page para una marca premium de churros españoles en Suiza.
 
-First, run the development server:
+## Stack
+
+- Next.js 16 (App Router)
+- TypeScript
+- Tailwind CSS v4
+- shadcn/ui
+- Framer Motion
+- Internacionalizacion con next-intl (es, en, de, fr, it)
+
+## Estructura principal
+
+```bash
+app/
+	[locale]/
+		layout.tsx
+		page.tsx
+components/
+	Navbar.tsx
+	LanguageSwitcher.tsx
+	HeroSection.tsx
+	ProductsSection.tsx
+	StorySection.tsx
+	EventsSection.tsx
+	ContactSection.tsx
+	Footer.tsx
+	ui/
+messages/
+	es.json
+	en.json
+	de.json
+	fr.json
+	it.json
+i18n/
+	routing.ts
+	navigation.ts
+	request.ts
+lib/
+	i18n.ts
+	utils.ts
+proxy.ts
+```
+
+## Dependencias instaladas
+
+Dependencias runtime:
+
+- next
+- react
+- react-dom
+- framer-motion
+- next-intl
+- lucide-react
+- class-variance-authority
+- clsx
+- tailwind-merge
+- @base-ui/react
+- tw-animate-css
+
+Dependencias de desarrollo:
+
+- typescript
+- tailwindcss
+- @tailwindcss/postcss
+- eslint
+- eslint-config-next
+- @types/node
+- @types/react
+- @types/react-dom
+
+## Instalacion limpia (sin globales)
+
+Desde la carpeta del proyecto:
+
+```bash
+npm install
+```
+
+## Arranque
+
+Desarrollo:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Build produccion:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Ejecutar build:
 
-## Learn More
+```bash
+npm run start
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Uso rapido
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Ejecuta `npm run dev`.
+2. Abre `http://localhost:3000`.
+3. La raiz redirige a `/es`.
+4. Cambia idioma con el selector del navbar.
+5. Edita textos por idioma en `messages/*.json`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Notas
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- No requiere instalaciones globales.
+- El proyecto esta listo para abrirse y ejecutarse en cualquier equipo con Node.js LTS + npm.

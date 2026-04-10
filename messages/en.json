@@ -1,0 +1,86 @@
+{
+  "language": {
+    "label": "Choose language"
+  },
+  "nav": {
+    "brand": "Mediterranean Churros",
+    "products": "Products",
+    "story": "Story",
+    "events": "Events",
+    "contact": "Contact",
+    "cta": "Book catering"
+  },
+  "hero": {
+    "tag": "PREMIUM ARTISAN CHURROS",
+    "title": "Authentic Spanish flavors on the move",
+    "subtitle": "Freshly made products inspired by Spanish tradition, present at fairs, markets and festivals across different cities in Switzerland.",
+    "primaryCta": "Request proposal",
+    "secondaryCta": "View specialties"
+  },
+  "products": {
+    "sectionTitle": "Products",
+    "classic": {
+      "title": "Traditional churro",
+      "desc": "Classic recipe, freshly made and crispy.",
+      "details": ""
+    },
+    "filled": {
+      "title": "Hot chocolate",
+      "desc": "The traditional accompaniment, intense and creamy.",
+      "details": ""
+    },
+    "signature": {
+      "title": "Coffee",
+      "desc": "A simple option to complement every moment.",
+      "details": ""
+    },
+    "specials": {
+      "title": "Special options",
+      "desc": "Sugar, cinnamon and different presentations depending on the event.",
+      "details": ""
+    }
+  },
+  "story": {
+    "title": "Our Story",
+    "paragraph": "We are a group of friends who share the same idea: bringing traditional Spanish flavors to different corners of Switzerland.\n\nThrough a simple and approachable format, we offer products inspired by a tradition deeply rooted in our culture.\n\nOur goal is to share an authentic experience at fairs, markets and festivals."
+  },
+  "events": {
+    "eyebrow": "EVENTS",
+    "title": "Events",
+    "paragraphOne": "We move across different cities in Switzerland, taking part in fairs, markets and festivals throughout the year.",
+    "paragraphTwo": "Each stop is a new opportunity to continue sharing our proposal and bring Spanish flavor to new places.",
+    "upcoming": "You can find us soon in",
+    "zurich": "Zurich",
+    "geneva": "Geneva",
+    "lausanne": "Lausanne"
+  },
+  "contact": {
+    "eyebrow": "CONTACT",
+    "title": "Contact",
+    "subtitle": "If you want to know where we will be next or get in touch with us:",
+    "emailLabel": "Email",
+    "emailValue": "hello@mediterraneanchurros.ch",
+    "instagramLabel": "Instagram",
+    "instagramValue": "@mediterraneanchurros",
+    "countryLabel": "Switzerland",
+    "countryValue": "Available in different cities",
+    "writeUs": "Write to us",
+    "formName": "Name",
+    "formEmail": "Email",
+    "formMessage": "Message",
+    "formSubmit": "Send message",
+    "formSuccess": "Thanks, we have received your message."
+  },
+  "footer": {
+    "brand": "Mediterranean Churros",
+    "tagline": "Traditional Spanish flavors in Switzerland.",
+    "rights": "All rights reserved.",
+    "legalTitle": "Legal",
+    "legal": "Legal notice",
+    "privacy": "Privacy",
+    "cookies": "Cookies",
+    "contactTitle": "Quick contact",
+    "email": "hello@mediterraneanchurros.ch",
+    "instagram": "@mediterraneanchurros"
+  }
+}
