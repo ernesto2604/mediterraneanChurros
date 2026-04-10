@@ -4,7 +4,7 @@ import Image from "next/image";
 import {Menu, X} from "lucide-react";
 import {motion} from "framer-motion";
 import {useTranslations} from "next-intl";
-import {useState} from "react";
+import {useEffect, useState} from "react";
 
 import {LanguageSwitcher} from "@/components/LanguageSwitcher";
 import {buttonVariants} from "@/components/ui/button";
@@ -23,13 +23,27 @@ const navItems = [
 export function Navbar({locale}: Props) {
   const t = useTranslations("nav");
   const [isOpen, setIsOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 8);
+    };
+
+    handleScroll();
+    window.addEventListener("scroll", handleScroll, {passive: true});
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <motion.header
       initial={{opacity: 0, y: -14}}
       animate={{opacity: 1, y: 0}}
       transition={{duration: 0.45, ease: "easeOut"}}
-      className="sticky top-0 z-50 border-b border-border/50 bg-background/85 backdrop-blur-lg"
+      className={`sticky top-0 z-50 border-b border-border/50 transition-all duration-300 ${
+        isScrolled ? "backdrop-blur-md bg-white/70 shadow-sm" : "bg-background/85 backdrop-blur-lg"
+      }`}
     >
       <div className="page-shell flex h-20 items-center justify-between gap-4">
         <a href={`/${locale}`} className="flex items-center gap-3">
@@ -72,7 +86,7 @@ export function Navbar({locale}: Props) {
           type="button"
           aria-label={isOpen ? "Close menu" : "Open menu"}
           onClick={() => setIsOpen((prev) => !prev)}
-          className="inline-flex size-10 items-center justify-center rounded-full border border-border/70 bg-card md:hidden"
+          className="inline-flex size-10 items-center justify-center rounded-full border border-border/70 bg-card transition-all duration-300 hover:-translate-y-0.5 md:hidden"
         >
           {isOpen ? <X className="size-5" /> : <Menu className="size-5" />}
         </button>

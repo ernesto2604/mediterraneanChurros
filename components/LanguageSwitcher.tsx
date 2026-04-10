@@ -36,7 +36,7 @@ export function LanguageSwitcher() {
           disabled={isPending}
           onClick={() => handleChangeLocale(locale)}
           className={[
-            "min-w-10 rounded-full px-2 py-1.5 text-xs font-semibold transition",
+            "min-w-10 rounded-full px-2 py-1.5 text-xs font-semibold transition-all duration-300 hover:-translate-y-0.5 disabled:hover:translate-y-0",
             currentLocale === locale
               ? "bg-primary text-primary-foreground"
               : "text-muted-foreground hover:text-foreground",

@@ -12,12 +12,14 @@
   },
   "hero": {
     "tag": "CHURROS PREMIUM ARTISANAUX",
-    "title": "Authentiques saveurs espagnoles en mouvement",
+    "title": "La saveur de l'Espagne, en mouvement",
     "subtitle": "Produits prepares a la minute et inspires de la tradition espagnole, presents dans des foires, marches et festivals a travers differentes villes de Suisse.",
-    "primaryCta": "Demander une offre",
+    "primaryCta": "Reserver un service traiteur",
     "secondaryCta": "Voir les specialites"
   },
   "products": {
+    "eyebrow": "Produits",
+    "title": "Notre selection",
     "sectionTitle": "Produits",
     "classic": {
       "title": "Churro traditionnel",
@@ -41,23 +43,30 @@
     }
   },
   "story": {
-    "title": "Notre histoire",
-    "paragraph": "Nous sommes un groupe d'amis qui partage la meme idee: faire decouvrir des saveurs traditionnelles d'Espagne dans differents coins de la Suisse.\n\nA travers un format simple et proche des gens, nous proposons des produits inspires d'une tradition tres ancree dans notre culture.\n\nNotre objectif est de partager une experience authentique dans les foires, les marches et les festivals."
+    "eyebrow": "Histoire",
+    "title": "Qui sommes-nous ?",
+    "paragraph": "Nous sommes un groupe de personnes unies par une meme idee: rapprocher les saveurs traditionnelles de l'Espagne dans differents coins de la Suisse.\n\nA travers un format proche et soigne, nous proposons une offre inspiree par une tradition profondement ancree dans notre culture.\n\nNotre objectif est de creer des experiences authentiques dans les foires, les marches et les festivals, ou chaque etape devient une occasion de partager plus qu'un simple produit."
   },
   "events": {
-    "eyebrow": "EVENEMENTS",
-    "title": "Evenements",
+    "eyebrow": "Evenements",
+    "title": "Ou nous trouver",
     "paragraphOne": "Nous nous deplacons dans differentes villes de Suisse en participant a des foires, des marches et des festivals tout au long de l'annee.",
     "paragraphTwo": "Chaque etape est une nouvelle occasion de partager notre proposition et d'apporter les saveurs espagnoles dans de nouveaux lieux.",
-    "upcoming": "Vous pourrez bientot nous trouver a",
+    "upcoming": "VOUS POUVEZ NOUS TROUVER A",
+    "listAria": "Villes et dates d'evenements",
     "zurich": "Zurich",
-    "geneva": "Geneva",
-    "lausanne": "Lausanne"
+    "geneva": "Geneve",
+    "lausanne": "Lausanne",
+    "zurichDate": "Bientot",
+    "genevaDate": "14-16 juin",
+    "lausanneDate": "Bientot"
   },
   "contact": {
     "eyebrow": "CONTACT",
-    "title": "Contact",
-    "subtitle": "Si vous voulez savoir ou nous serons prochainement ou nous contacter:",
+    "title": "Nous sommes la pour vous",
+    "subtitle": "Si vous souhaitez organiser un evenement ou collaborer avec nous, nous serons ravis de vous ecouter.",
+    "subtitleTwo": "Dites-nous ce dont vous avez besoin et nous vous repondrons dans les plus brefs delais.",
+    "serviceLine": "Service traiteur pour foires, evenements prives et celebrations.",
     "emailLabel": "Email",
     "emailValue": "hello@mediterraneanchurros.ch",
     "instagramLabel": "Instagram",
@@ -66,9 +75,12 @@
     "countryValue": "Disponible dans differentes villes",
     "writeUs": "Ecrivez-nous",
     "formName": "Nom",
+    "formNamePlaceholder": "Votre nom",
     "formEmail": "Email",
+    "formEmailPlaceholder": "vous@email.com",
     "formMessage": "Message",
-    "formSubmit": "Envoyer le message",
+    "formMessagePlaceholder": "Parlez-nous de votre evenement",
+    "formSubmit": "Envoyer la demande",
     "formSuccess": "Merci, nous avons bien recu votre message."
   },
   "footer": {

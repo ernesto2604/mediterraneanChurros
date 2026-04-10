@@ -12,12 +12,14 @@
   },
   "hero": {
     "tag": "PREMIUM ARTISAN CHURROS",
-    "title": "Authentic Spanish flavors on the move",
+    "title": "The taste of Spain, on the move",
     "subtitle": "Freshly made products inspired by Spanish tradition, present at fairs, markets and festivals across different cities in Switzerland.",
-    "primaryCta": "Request proposal",
+    "primaryCta": "Book Catering",
     "secondaryCta": "View specialties"
   },
   "products": {
+    "eyebrow": "Products",
+    "title": "Our selection",
     "sectionTitle": "Products",
     "classic": {
       "title": "Traditional churro",
@@ -41,23 +43,30 @@
     }
   },
   "story": {
-    "title": "Our Story",
-    "paragraph": "We are a group of friends who share the same idea: bringing traditional Spanish flavors to different corners of Switzerland.\n\nThrough a simple and approachable format, we offer products inspired by a tradition deeply rooted in our culture.\n\nOur goal is to share an authentic experience at fairs, markets and festivals."
+    "eyebrow": "Story",
+    "title": "Who are we?",
+    "paragraph": "We are a group of people united by one shared idea: bringing the traditional flavors of Spain to different corners of Switzerland.\n\nThrough a close and carefully crafted format, we bring a proposal inspired by a tradition deeply rooted in our culture.\n\nOur goal is to create authentic experiences at fairs, markets and festivals, where each stop becomes an opportunity to share something more than just a product."
   },
   "events": {
-    "eyebrow": "EVENTS",
-    "title": "Events",
+    "eyebrow": "Events",
+    "title": "Where to find us",
     "paragraphOne": "We move across different cities in Switzerland, taking part in fairs, markets and festivals throughout the year.",
     "paragraphTwo": "Each stop is a new opportunity to continue sharing our proposal and bring Spanish flavor to new places.",
-    "upcoming": "You can find us soon in",
+    "upcoming": "YOU CAN FIND US IN",
+    "listAria": "Cities and event dates",
     "zurich": "Zurich",
     "geneva": "Geneva",
-    "lausanne": "Lausanne"
+    "lausanne": "Lausanne",
+    "zurichDate": "Coming soon",
+    "genevaDate": "June 14-16",
+    "lausanneDate": "Coming soon"
   },
   "contact": {
     "eyebrow": "CONTACT",
-    "title": "Contact",
-    "subtitle": "If you want to know where we will be next or get in touch with us:",
+    "title": "We are here for you",
+    "subtitle": "If you want to organize an event or collaborate with us, we will be delighted to hear from you.",
+    "subtitleTwo": "Tell us what you need and we will get back to you as soon as possible.",
+    "serviceLine": "Catering for fairs, private events and celebrations.",
     "emailLabel": "Email",
     "emailValue": "hello@mediterraneanchurros.ch",
     "instagramLabel": "Instagram",
@@ -66,9 +75,12 @@
     "countryValue": "Available in different cities",
     "writeUs": "Write to us",
     "formName": "Name",
+    "formNamePlaceholder": "Your name",
     "formEmail": "Email",
+    "formEmailPlaceholder": "you@email.com",
     "formMessage": "Message",
-    "formSubmit": "Send message",
+    "formMessagePlaceholder": "Tell us about your event",
+    "formSubmit": "Send request",
     "formSuccess": "Thanks, we have received your message."
   },
   "footer": {

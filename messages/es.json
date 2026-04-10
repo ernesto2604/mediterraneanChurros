@@ -12,12 +12,14 @@
   },
   "hero": {
     "tag": "CHURROS ARTESANOS PREMIUM",
-    "title": "Autenticos sabores españoles en movimiento",
+    "title": "El sabor de España, en movimiento",
     "subtitle": "Productos recien hechos inspirados en la tradicion española, presentes en ferias, mercados y festivales por diferentes ciudades de Suiza.",
-    "primaryCta": "Solicitar propuesta",
+    "primaryCta": "Reservar Catering",
     "secondaryCta": "Ver especialidades"
   },
   "products": {
+    "eyebrow": "Productos",
+    "title": "Nuestra selección",
     "sectionTitle": "Productos",
     "classic": {
       "title": "Churro tradicional",
@@ -41,23 +43,30 @@
     }
   },
   "story": {
-    "title": "Nuestra Historia",
-    "paragraph": "Somos un grupo de amigos que comparte una misma idea: acercar sabores tradicionales de Espana a distintos rincones de Suiza.\n\nA traves de un formato sencillo y cercano, ofrecemos productos inspirados en una tradicion muy arraigada en nuestra cultura.\n\nNuestro objetivo es compartir una experiencia autentica en ferias, mercados y festivales."
+    "eyebrow": "Historia",
+    "title": "¿Quiénes somos?",
+    "paragraph": "Somos un grupo de personas unidas por una misma idea: acercar los sabores tradicionales de Espana a distintos rincones de Suiza.\n\nA traves de un formato cercano y cuidado, llevamos una propuesta inspirada en una tradicion profundamente arraigada en nuestra cultura.\n\nNuestro objetivo es crear experiencias autenticas en ferias, mercados y festivales, donde cada parada se convierte en una oportunidad para compartir algo mas que un producto."
   },
   "events": {
-    "eyebrow": "EVENTOS",
-    "title": "Eventos",
+    "eyebrow": "Eventos",
+    "title": "Dónde encontrarnos",
     "paragraphOne": "Nos movemos por diferentes ciudades de Suiza participando en ferias, mercados y festivales a lo largo del año.",
     "paragraphTwo": "Cada parada es una nueva oportunidad para seguir compartiendo nuestra propuesta y acercar el sabor español a nuevos lugares.",
-    "upcoming": "Podeis encontrarnos proximamente en",
+    "upcoming": "PODÉIS ENCONTRARNOS EN",
+    "listAria": "Ciudades y fechas de eventos",
     "zurich": "Zurich",
     "geneva": "Geneva",
-    "lausanne": "Lausanne"
+    "lausanne": "Lausanne",
+    "zurichDate": "Próximamente",
+    "genevaDate": "14-16 junio",
+    "lausanneDate": "Próximamente"
   },
   "contact": {
     "eyebrow": "CONTACTO",
-    "title": "Contacto",
-    "subtitle": "Si quieres saber donde estaremos proximamente o ponerte en contacto con nosotros:",
+    "title": "Estamos aquí para ti",
+    "subtitle": "Si quieres organizar un evento o colaborar con nosotros, estaremos encantados de escucharte.",
+    "subtitleTwo": "Cuentanos que necesitas y te responderemos lo antes posible.",
+    "serviceLine": "Catering para ferias, eventos privados y celebraciones.",
     "emailLabel": "Email",
     "emailValue": "hello@mediterraneanchurros.ch",
     "instagramLabel": "Instagram",
@@ -66,9 +75,12 @@
     "countryValue": "Disponible en diferentes ciudades",
     "writeUs": "Escribenos",
     "formName": "Nombre",
+    "formNamePlaceholder": "Tu nombre",
     "formEmail": "Email",
+    "formEmailPlaceholder": "tu@email.com",
     "formMessage": "Mensaje",
-    "formSubmit": "Enviar mensaje",
+    "formMessagePlaceholder": "Cuentanos sobre tu evento",
+    "formSubmit": "Enviar solicitud",
     "formSuccess": "Gracias, hemos recibido tu mensaje."
   },
   "footer": {
